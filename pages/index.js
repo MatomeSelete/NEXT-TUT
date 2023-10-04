@@ -8,14 +8,14 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div>
+    <div >
 
-      <h1>HomePage</h1>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <h1 className={styles.title}>HomePage</h1>
+      <p className={styles.text}> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      <p className={styles.text}> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
       <Link href="/ninjas">
-        See Ninja Listing
+       <button className={styles.btn}> Ninja Listing</button> 
       </Link>
 
    </div>
