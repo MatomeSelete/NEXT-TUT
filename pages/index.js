@@ -7,11 +7,15 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Home() {
+
+ 
+
   return (
     <>
       <Head>
         <title> Ninja List | Home </title>
         <meta name="keywords" content='ninjas' />
+        <script  src="html2pdf.bundle.min.js"></script>
       </Head>
 
       <div>
